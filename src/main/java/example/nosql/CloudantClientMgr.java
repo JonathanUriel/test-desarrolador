@@ -19,8 +19,8 @@ public class CloudantClientMgr {
 
 	private static String databaseName = "sample_nosql_db";
 
-	private static String user = "REPLACE_WITH_CLOUDANT_USERNAME";
-	private static String password = "REPLACE_WITH_CLOUDANT_PASSWORD";
+	private static String user = "jonathanoeo12@gmail.com";
+	private static String password = "realmadrid_1";
 
 	private static void initClient() {
 		if (cloudant == null) {
@@ -69,7 +69,7 @@ public class CloudantClientMgr {
 		}
 
 		try {
-			System.out.println("Connecting to Cloudant : " + user);
+			System.out.println("Connecting to Cloudant/ : " + user);
 			CloudantClient client = ClientBuilder.account(user)
 					.username(user)
 					.password(password)
